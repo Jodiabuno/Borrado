@@ -1,118 +1,125 @@
 body {
-    text-align: center;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-nav{
-    background-color: #660066;
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-#navbarNav a{
-
-    color: #ffffff;
+nav {
+  background-color: #660066;
 }
-section{
-    background-color: #660066;
+#navbarNav a {
+  color: #ffffff;
 }
-.btn-primary {
-    color: #fff;
-    background-color: #660066;
-    border-color: #660066;
+section {
+  background-color: #660066;
+}
+.btn {
+  color: #fff;
+  background-color: #660066;
+  border-color: #660066;
 }
 .hero-section {
-    text-align: center;
-    background-image: url('../img/bg-hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffffff;
-    text-decoration: 0.125em 0.25em 0.125em;
-    padding: 6.25rem 3.125rem;
-  }
-header, h1, h2{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
+  text-align: center;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-decoration: 2.125em 2.25em 2.125em;
+  padding: 250px;
+}
+header,
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
 }
 h2 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color:black;
-    font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 50px;
 }
-h3{
-    font-family: 'Oswald', sans-serif;
-    color: #FFFFFF;
-    font-size: 52pt;
-    text-align: center;
-    margin: auto;
-    padding: 30px;
+h3 {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-size: 52pt;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
 
-        font-weight: bold;
+  font-weight: bold;
 }
-p{
-    font-size: 2.65rem;
-    font-weight: 500;
-    color: #373A3C;
-    font-family: Open Sans;
-    text-align: center justify;
-    padding: 50px
-    
+p {
+  font-size: 2.65rem;
+  font-weight: 500;
+  color: #373a3c;
+  font-family: Open Sans;
+  text-align: center justify;
+  padding: 50px;
 }
 .card {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .grid-container {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: auto auto;
-    padding: 28px;
-    font-family: Open Sans;
-    
-  }
-    p {
-        font-size: 0.65rem;
-        /* font-weight: 500; */
-        color: #373A3C;
-        font-family: Open Sans;
-        text-align: center justify;
-        padding: 0px;
-    }
-
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 30px;
-    font-size: 20px;
-    text-align: justify;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
-}
-  .oscuro a{
-    color: #ffffff;
-    text-decoration: none;
-  }
-.contacto{
-background-color: white;
-margin-top: 100px;
-
-}
-button{
-    color: #373A3C;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 70px;
+  font-family: Open Sans;
 }
 
-  .fa-5x {
-    font-size: 3em;
+p {
+  font-size: 0.65rem;
+  /* font-weight: 500; */
+  color: #373a3c;
+  font-family: Open Sans;
+  text-align: center justify;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contacto {
+  background-color: white;
+  margin-top: 100px;
+}
+button {
+  color: #373a3c;
+}
+
+.fa-5x {
+  font-size: 3em;
 }
 h5 {
-    margin-top: 73px;
+  margin-top: 60px;
+  font-family: "Oswald", sans-serif;
+  color: #373a3c;
+  font-size: 20pt;
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+ 
 }
-
-footer{
-    background-color: #660066;
+h6{
+  font-weight: bold;
+}
+footer {
+  background-color: #660066;
 }
 footer i {
-    margin: 10px;
-    
-  }
+  margin: 10px;
+}
